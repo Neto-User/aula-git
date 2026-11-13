@@ -1,4 +1,4 @@
-/* Tema claro (branch main) */
+/* Tema escuro (branch tema-escuro) */
 * {
   box-sizing: border-box;
 }
@@ -6,12 +6,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6fb;
-  color: #1f2430;
+  background-color: #0d1021;
+  color: #e8e8f5;
 }
 
 header {
-  background-color: #5b4bdb;
+  background: linear-gradient(135deg, #1b1f4a, #5b4bdb);
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -29,7 +29,7 @@ main {
 }
 
 code {
-  background-color: #e6e3ff;
+  background-color: #262a52;
   padding: 2px 6px;
   border-radius: 4px;
 }
@@ -41,10 +41,10 @@ code {
 }
 
 .cartao {
-  background-color: white;
+  background-color: #1a1e3d;
   border-radius: 12px;
   padding: 16px;
-  border-top: 6px solid #5b4bdb;
+  border-top: 6px solid #f05033;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   color: inherit;
